@@ -12,6 +12,6 @@ public class WebApplication extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
         SpringApplication.run(WebApplication.class, args);
-        System.out.println("@@@@@@@@@@@@@@Hello world! - WEB");
+        System.out.println("@@@@@@@@@@@@@@Hello world! - WEB2");
     }
 }
