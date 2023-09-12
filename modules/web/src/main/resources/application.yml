@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: admin
+    password: 12121212
+    url: jdbc:mariadb://mariadb2.cxthwakqokik.ap-northeast-2.rds.amazonaws.com:3306/mydb
+    driver-class-name: org.mariadb.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
